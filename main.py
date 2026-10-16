@@ -27,7 +27,7 @@ Output: The sound Baby Shark, with three verses:
 
 REPEAT = 3
 def shark_verse(shark):
-    for i in range(0,3):
+    for i in range(REPEAT):
         print(shark, "Shark,")
         print("doo-doo-doo-do-do-do-do")
     print(shark, "Shark!")
