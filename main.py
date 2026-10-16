@@ -1,5 +1,5 @@
 """----------------------------------------------------------------
-Name:       your name
+Name:       Rory Long
 Assignment: Lab - Baby Shark
 Course:     CS 1430, Section X, Fall 2026
 Purpose:    This program is designed to be practice for Python
@@ -22,14 +22,14 @@ Output: The sound Baby Shark, with three verses:
 ##############
 # CONSTANTS
 ##############
-REPEAT = 3
-def dodo():
-    print("doo-doo-doo-do-do-do-do")
 
+
+
+REPEAT = 3
 def shark_verse(shark):
     for i in range(0,3):
         print(shark, "Shark,")
-        dodo()
+        print("doo-doo-doo-do-do-do-do")
     print(shark, "Shark!")
 
 def main():
