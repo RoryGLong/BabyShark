@@ -23,30 +23,22 @@ Output: The sound Baby Shark, with three verses:
 # CONSTANTS
 ##############
 REPEAT = 3
+def dodo():
+    print("doo-doo-doo-do-do-do-do")
 
+def shark_verse(shark):
+    for i in range(0,3):
+        print(shark, "Shark,")
+        dodo()
+    print(shark, "Shark!")
 
 def main():
-    print("Baby Shark,")
-    print("doo-doo-doo-do-do-do-do")
-    print("Baby Shark,")
-    print("doo-doo-doo-do-do-do-do")
-    print("Baby Shark,")
-    print("doo-doo-doo-do-do-do-do")
-    print("Baby Shark!")
-    print("Mommy Shark,")
-    print("doo-doo-doo-do-do-do-do")
-    print("Mommy Shark,")
-    print("doo-doo-doo-do-do-do-do")
-    print("Mommy Shark,")
-    print("doo-doo-doo-do-do-do-do")
-    print("Mommy Shark!")
-    print("Daddy Shark,")
-    print("doo-doo-doo-do-do-do-do")
-    print("Daddy Shark,")
-    print("doo-doo-doo-do-do-do-do")
-    print("Daddy Shark,")
-    print("doo-doo-doo-do-do-do-do")
-    print("Daddy Shark!")
+    shark_verse("Baby")
+    shark_verse("Mommy")
+    shark_verse("Daddy")
+    
+
+
 
 
 if __name__ == "__main__":
